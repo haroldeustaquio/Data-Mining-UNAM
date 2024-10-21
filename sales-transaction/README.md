@@ -1,4 +1,4 @@
-# Sales transaction
+# Sales Transaction
 
 ## Project overview
 

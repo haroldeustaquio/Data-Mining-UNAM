@@ -1,4 +1,4 @@
-# Beverage Data Analysis Project
+# Sales Beverage
 
 ## Project Overview
 This project focuses on analyzing transaction data for beverage products, specifically isotonic drinks, with the goal of identifying purchasing patterns and trends in customer behavior. Utilizing Machine Learning techniques, **``association``** and **``time series models``** were implemented to extract valuable insights that can help companies optimize their marketing and sales strategies.
