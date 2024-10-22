@@ -1,39 +1,69 @@
-# Seq2Seq Model for Harry Potter Books
+# Data-Mining-UNAM
 
 ## Overview
-This project implements a sequence-to-sequence (seq2seq) model using PyTorch, designed to generate text based on input sequences derived from the Harry Potter series. The model comprises an Encoder-Decoder architecture, where the Encoder processes the input sequences, and the Decoder generates the output sequences. 
-
-Additionally, a word embedding technique is applied to capture semantic relationships between words used in the series.
+This repository contains several projects from the Data Mining course at UNAM, Mexico. These projects were developed throughout the semester 24-2, with each one being presented and detailed extensively. The aim of these projects is to extract valuable insights from various datasets relevant to customer behavior, sales transactions, and text generation based on the Harry Potter series.
 
 ---
 
 ## Project Structure
-- **Data Processing**: The project processes text from the Harry Potter books to create input-output pairs suitable for training the seq2seq model. It tokenizes the text and constructs a vocabulary.
-- **Model Architecture**:
-  - **Encoder**: Encodes the input sequence and generates a hidden state.
-  - **Decoder**: Decodes the hidden state to produce the output sequence.
-  - **Seq2Seq**: Integrates both the Encoder and Decoder into a single model for end-to-end training.
+
+### 1. Sales Beverage
+
+#### Overview
+The Sales Beverage project analyzes transaction data for isotonic drinks, utilizing association and time series models to identify purchasing patterns and trends in customer behavior. The ultimate goal is to enhance marketing and sales strategies for beverage companies.
+
+#### Models Applied
+1. **Association Models**:
+   - **``Apriori``**: Finds frequent relationships between purchased products.
+   - **``FP-Growth``**: Improves efficiency in finding association patterns.
+
+2. **Time Series Models**:
+   - **``ARIMA``**: Analyzes and predicts sales trends over time.
+   - **``Triple Exponential Smoothing``**: Provides more accurate demand projections.
 
 ---
 
-## Implementation Steps
-1. **Data Preparation**: Text from multiple Harry Potter books is read and tokenized, generating pairs of input and output sequences.
-2. **Vocabulary Construction**: A vocabulary is built based on the frequency of words, ensuring a minimum frequency threshold to filter out less common words.
-3. **Model Training**: The model is trained using a loss function optimized for sequence generation tasks.
-4. **Word Embeddings**: Word embeddings are extracted for selected words to visualize and analyze their semantic relationships.
+### 2. Sales Transaction
+
+#### Overview
+The Sales Transaction project focuses on analyzing product transaction data to identify customer purchasing patterns and trends. It applies clustering, classification, and regression models to derive actionable insights.
+
+#### Models Applied
+1. **Clustering Algorithms**:  
+   - **``K-Means Clustering``**: Partitions data points into clusters based on proximity.
+   - **``Agglomerative Clustering``**: Merges similar data points to form a hierarchy of clusters.
+
+2. **Classification Algorithms**:  
+   - **``Decision Trees``**: Segments data through hierarchical splits for clear interpretations.
+   - **``Logistic Regression``**: Models binary classifications through a sigmoid function.
+
+3. **Regression Algorithms**:  
+   - **``DecisionTreeRegressor``**: Predicts continuous values by recursively splitting data.
+   - **``GradientBoostingRegressor``**: Improves prediction accuracy by combining weak models.
+
+---
+
+### 3. Seq2Seq Model for Harry Potter Books
+
+#### Overview
+This project implements a sequence-to-sequence (seq2seq) model using PyTorch, aimed at generating text based on sequences derived from the Harry Potter series. The model leverages an Encoder-Decoder architecture alongside word embedding techniques.
+
+#### Models Applied
+- **``Encoder-Decoder Architecture``**: Processes input sequences and generates output sequences.
+- **``Word Embedding Techniques``**: Captures semantic relationships between words used in the series.
 
 ---
 
 ## Requirements
-To run this project, ensure you have the following libraries installed:
-- PyTorch
-- Torchtext
-- Keras
-- Matplotlib
-- scikit-learn
+To run any of the projects in this repository, ensure you have the following Python libraries installed:
 
-You can install the required libraries using:
 ```bash
+# For Sales Beverage and Sales Transaction
+pip install pandas numpy matplotlib scikit-learn seaborn shap
+```
+
+```bash
+# For Seq2Seq Model
 pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu121
 pip install torchtext==0.18
 ```
