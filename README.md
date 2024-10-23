@@ -7,43 +7,43 @@ This repository contains several projects from the Data Mining course at UNAM, M
 
 ## Project Structure
 
-### 1. Sales Beverage
+### [1. Sales Beverage](https://github.com/haroldeustaquio/Data-Mining-UNAM/tree/main/sales-beverage)
 
 #### Overview
 The Sales Beverage project analyzes transaction data for isotonic drinks, utilizing association and time series models to identify purchasing patterns and trends in customer behavior. The ultimate goal is to enhance marketing and sales strategies for beverage companies.
 
 #### Models Applied
-1. **Association Models**:
+1. [Association Models](https://github.com/haroldeustaquio/Data-Mining-UNAM/blob/main/sales-beverage/association.ipynb) :
    - **``Apriori``**: Finds frequent relationships between purchased products.
    - **``FP-Growth``**: Improves efficiency in finding association patterns.
 
-2. **Time Series Models**:
+2. [Time Series Models](https://github.com/haroldeustaquio/Data-Mining-UNAM/blob/main/sales-beverage/time_series.ipynb):
    - **``ARIMA``**: Analyzes and predicts sales trends over time.
    - **``Triple Exponential Smoothing``**: Provides more accurate demand projections.
 
 ---
 
-### 2. Sales Transaction
+### [2. Sales Transaction](https://github.com/haroldeustaquio/Data-Mining-UNAM/tree/main/sales-transaction)
 
 #### Overview
 The Sales Transaction project focuses on analyzing product transaction data to identify customer purchasing patterns and trends. It applies clustering, classification, and regression models to derive actionable insights.
 
 #### Models Applied
-1. **Clustering Algorithms**:  
+1. [Clustering Algorithms](https://github.com/haroldeustaquio/Data-Mining-UNAM/blob/main/sales-transaction/clustering.ipynb):  
    - **``K-Means Clustering``**: Partitions data points into clusters based on proximity.
    - **``Agglomerative Clustering``**: Merges similar data points to form a hierarchy of clusters.
 
-2. **Classification Algorithms**:  
+2. [Classification Algorithms](https://github.com/haroldeustaquio/Data-Mining-UNAM/blob/main/sales-transaction/classification.ipynb):  
    - **``Decision Trees``**: Segments data through hierarchical splits for clear interpretations.
    - **``Logistic Regression``**: Models binary classifications through a sigmoid function.
 
-3. **Regression Algorithms**:  
+3. [Regression Algorithms](https://github.com/haroldeustaquio/Data-Mining-UNAM/blob/main/sales-transaction/regression.ipynb):  
    - **``DecisionTreeRegressor``**: Predicts continuous values by recursively splitting data.
    - **``GradientBoostingRegressor``**: Improves prediction accuracy by combining weak models.
 
 ---
 
-### 3. Seq2Seq Model for Harry Potter Books
+### [3. Neural Network](https://github.com/haroldeustaquio/Data-Mining-UNAM/tree/main/neural-network)
 
 #### Overview
 This project implements a sequence-to-sequence (seq2seq) model using PyTorch, aimed at generating text based on sequences derived from the Harry Potter series. The model leverages an Encoder-Decoder architecture alongside word embedding techniques.
@@ -54,7 +54,7 @@ This project implements a sequence-to-sequence (seq2seq) model using PyTorch, ai
 
 ---
 
-## Requirements
+#### Requirements
 To run any of the projects in this repository, ensure you have the following Python libraries installed:
 
 ```bash
