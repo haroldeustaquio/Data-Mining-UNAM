@@ -7,7 +7,7 @@ This repository contains several projects from the Data Mining course at UNAM, M
 
 ## Project Structure
 
-### [1. Sales Beverage](https://github.com/haroldeustaquio/Data-Mining-UNAM/tree/main/sales-beverage)
+### 1. Sales Beverage
 
 #### Overview
 The Sales Beverage project analyzes transaction data for isotonic drinks, utilizing association and time series models to identify purchasing patterns and trends in customer behavior. The ultimate goal is to enhance marketing and sales strategies for beverage companies.
@@ -23,7 +23,7 @@ The Sales Beverage project analyzes transaction data for isotonic drinks, utiliz
 
 ---
 
-### [2. Sales Transaction](https://github.com/haroldeustaquio/Data-Mining-UNAM/tree/main/sales-transaction)
+### 2. Sales Transaction
 
 #### Overview
 The Sales Transaction project focuses on analyzing product transaction data to identify customer purchasing patterns and trends. It applies clustering, classification, and regression models to derive actionable insights.
@@ -43,7 +43,7 @@ The Sales Transaction project focuses on analyzing product transaction data to i
 
 ---
 
-### [3. Neural Network](https://github.com/haroldeustaquio/Data-Mining-UNAM/tree/main/neural-network)
+### 3. Neural Network
 
 #### Overview
 This project implements a sequence-to-sequence (seq2seq) model using PyTorch, aimed at generating text based on sequences derived from the Harry Potter series. The model leverages an Encoder-Decoder architecture alongside word embedding techniques.
