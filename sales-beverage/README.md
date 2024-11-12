@@ -1,7 +1,14 @@
 # Sales Beverage
 
-## Project Overview
+## Overview
 This project focuses on analyzing transaction data for beverage products, specifically isotonic drinks, with the goal of identifying purchasing patterns and trends in customer behavior. Utilizing Machine Learning techniques, **``association``** and **``time series models``** were implemented to extract valuable insights that can help companies optimize their marketing and sales strategies.
+
+**Content:**
+* [Business Context](#business-context)
+* [Data Description](#data-description)
+* [Models Applied](#models-applied)
+* [Requirements](#requirements)
+
 
 ---
 
@@ -38,12 +45,19 @@ The dataset contains a wide variety of variables relevant to customer purchasing
 Two types of Machine Learning models were used in this analysis:
 
 1. **Association Models**:
-   - **Apriori**: This algorithm was used to find frequent relationships between purchased products, allowing the identification of buying patterns and product recommendations.
-   - **FP-Growth**: This method was implemented to improve efficiency in finding association patterns, successfully identifying combinations of products that customers tend to buy together.
+   - **``Apriori``**: This algorithm was used to find frequent relationships between purchased products, allowing the identification of buying patterns and product recommendations.
+   - **``FP-Growth``**: This method was implemented to improve efficiency in finding association patterns, successfully identifying combinations of products that customers tend to buy together.
 
 2. **Time Series Models**:
-   - **ARIMA**: This model was used to analyze and predict sales trends over time, helping to understand the seasonal and cyclical behavior of sales.
-   - **Triple Exponential Smoothing**: This method was applied to smooth the time series and obtain more accurate projections of the demand for isotonic products.
+   - **``ARIMA``**: This model was used to analyze and predict sales trends over time, helping to understand the seasonal and cyclical behavior of sales.
+   - **``Triple Exponential Smoothing``**: This method was applied to smooth the time series and obtain more accurate projections of the demand for isotonic products.
+
 ---
-## Conclusion
-The results of this analysis provide beverage companies with valuable information for making strategic decisions regarding inventory, marketing, and product promotion. By implementing these Machine Learning models, businesses can significantly enhance their commercial strategies and increase customer satisfaction.
+
+## Requirements
+
+To run this project, install the required libraries using:
+
+```bash
+pip install pandas numpy matplotlib scikit-learn seaborn statsmodels mlxtend
+```

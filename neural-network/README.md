@@ -5,6 +5,12 @@ This project implements a sequence-to-sequence (seq2seq) model using PyTorch, de
 
 Additionally, a word embedding technique is applied to capture semantic relationships between words used in the series.
 
+**Content:**
+* [Project Structure](#project-structure)
+* [Implementation Steps](#implementation-steps)
+* [Requirements](#requirements)
+
+
 ---
 
 ## Project Structure
@@ -25,14 +31,9 @@ Additionally, a word embedding technique is applied to capture semantic relation
 ---
 
 ## Requirements
-To run this project, ensure you have the following libraries installed:
-- PyTorch
-- Torchtext
-- Keras
-- Matplotlib
-- scikit-learn
 
-You can install the required libraries using:
+To run this project, install the required libraries using:
+
 ```bash
 pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu121
 pip install torchtext==0.18

@@ -1,8 +1,15 @@
 # Sales Transaction
 
-## Project overview
+## Overview
 
 This project focuses on analyzing transaction data for products, with the goal of identifying purchasing patterns and trends in customer behavior. Utilizing Machine Learning techniques, **``clustering techniques``**, **``classification models``**, moreover, **``regression models``** were implemented to extract valuable insights that can help companies optimize their marketing and sales strategies.
+
+**Content:**
+* [Business Context](#business-context)
+* [Data Description](#data-description)
+* [Models Applied](#models-applied)
+* [Requirements](#requirements)
+
 
 ---
 
@@ -34,30 +41,29 @@ The dataset contains a wide variety of variables relevant to customer purchasing
 These variables provide detailed information about the purchasing behavior of customers, allowing the company to better understand both their demographic characteristics and how they interact with different product categories.
 
 ---
+
 ## Models Applied
+
 Three types of Machine Learning models were used in this analysis:
 
 1. **Clustering Algorithms**:  
-   - **K-Means Clustering**: This algorithm partitions data points into clusters based on proximity to cluster centers.  
-   - **Agglomerative Clustering**: This method builds a hierarchy of clusters by merging similar data points, starting with each point as an individual cluster.
+   - **``K-Means Clustering``**: This algorithm partitions data points into clusters based on proximity to cluster centers.  
+   - **``Agglomerative Clustering``**: This method builds a hierarchy of clusters by merging similar data points, starting with each point as an individual cluster.
 
 2. **Classification Algorithms**:  
-   - **Decision Trees**: A model that segments data through hierarchical splits, offering clear visual interpretations of decision-making.  
-   - **Logistic Regression**: This statistical model predicts class probabilities, effectively modeling binary classifications through a sigmoid function.
+   - **``Decision Trees``**: A model that segments data through hierarchical splits, offering clear visual interpretations of decision-making.  
+   - **``Logistic Regression``**: This statistical model predicts class probabilities, effectively modeling binary classifications through a sigmoid function.
 
 3. **Regression Algorithms**:  
-   - **DecisionTreeRegressor**: This model predicts continuous values by recursively splitting data, capturing complex relationships while remaining interpretable.  
-   - **GradientBoostingRegressor**: An ensemble method that sequentially improves prediction accuracy by combining weak models, effectively managing non-linear relationships.
+   - **``DecisionTreeRegressor``**: This model predicts continuous values by recursively splitting data, capturing complex relationships while remaining interpretable.  
+   - **``GradientBoostingRegressor``**: An ensemble method that sequentially improves prediction accuracy by combining weak models, effectively managing non-linear relationships.
    
 --- 
 
 ## Requirements
 
-Make sure you have the following Python libraries installed:
+To run this project, install the required libraries using:
 
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `scikit-learn`
-- `seaborn`
-- `shap`
+```bash
+pip install pandas numpy matplotlib scikit-learn seaborn shap
+```
